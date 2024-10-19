@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline;
+}
+
+body{
+    background-color: #add8e6;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+ 
+}
+
+svg{
+    width: 50px;
+    height: 70px;
+    fill: red;
+    padding-left: 25px;
+    
+}
+
+button:hover{
+    background-color: #45a049;
+    transition: background-color 0.3s ease;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #87b0be;
+    color:white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+img{
+    padding: 10px;
+}
+.box{
+   height: 80px;
+    width: 15px;
+    padding-top: 20px;
+    background-color: blue;
+}
+
+.oyekudiv{
+
+    width: 500px;
+    height: 300px;
+}
+.nav{
+    /* background-color: yellow; */
+    height: 10%;
+    width: 60%;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
